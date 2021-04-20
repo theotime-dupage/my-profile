@@ -1,0 +1,140 @@
+
+body {
+  color: rgb(10, 10, 10);
+  background-color: rgb(240, 240, 240);
+  font-size: 15px;
+  font-family: Courier;
+  text-align: justify;
+  text-decoration: none;
+}
+
+h1, h2, {
+  font-family: Oxygen, sans-serif;
+}
+
+h1 {
+  color: #81b214;
+  background-color: rgb(240, 240, 240);
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px auto;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(240, 240, 240);
+  font-size: 25px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  color: #126e82;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 40px auto;
+}
+
+.parties {
+  background: white;
+  padding: 30px;
+  border: 2px solid rgba(20, 20, 20, 0.1);
+  border-radius: 4px;
+  margin: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 20px 0px;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 600px
+  }
+  .parties {
+    width: 500px
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px
+  }
+  .parties {
+    width: 300px
+  }
+}
+
+#zoro {
+  border-radius: 4px;
+  width: 400px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.btn-blue {
+background-color: #126e82;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+.btn-blue:hover {
+  color: white;
+  background-color: black;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+ font-size: 50px;
+ color: #126e82;
+}
+
+.list-inline i:hover {
+ font-size: 50px;
+ color: black;
+}
+
+#introduction p {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.nolist {
+  list-style: none;
+}
+
+/* GREY SCALE
+/* color: rgb(0, 0, 0);        /* black */
+/* color: rgb(30, 30, 30);     /* dark grey */
+/* color: rgb(120, 120, 120);  /* medium grey */
+/* color: rgb(240, 240, 240);  /* light grey */
+/* color: rgb(255, 255, 255);  /* white */
+
